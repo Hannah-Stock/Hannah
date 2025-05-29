@@ -247,17 +247,18 @@ footer {
   text-align: center;
 }
 
-.testimonials h2 {
-  font-size: 2rem;
-  margin-bottom: 40px;
-  color: #002244;
+.testimonials .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center; /* Ensures heading is centered */
 }
 
 .testimonial-grid {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; /* This centers the testimonial boxes */
   gap: 30px;
-  justify-content: center;
 }
 
 .testimonial {
@@ -267,24 +268,4 @@ footer {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   max-width: 300px;
   text-align: left;
-}
-
-.testimonial p {
-  font-size: 1rem;
-  line-height: 1.5;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.testimonial span {
-  font-weight: bold;
-  color: #666;
-}
-
-/* Responsive layout */
-@media (max-width: 768px) {
-  .testimonial-grid {
-    flex-direction: column;
-    align-items: center;
-  }
 }
