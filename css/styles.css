@@ -326,3 +326,17 @@ footer {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
+.progress-images img {
+  width: 300px;
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Make after images appear larger */
+.progress-block.after img {
+  width: 350px;
+}
