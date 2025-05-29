@@ -150,22 +150,29 @@ footer {
 
 .image-text-container {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  gap: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
   max-width: 1000px;
   margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.image-side {
+  flex: 1 1 40%;
+  max-width: 400px;
 }
 
 .image-side img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .text-side {
+  flex: 1 1 50%;
   max-width: 500px;
 }
 
