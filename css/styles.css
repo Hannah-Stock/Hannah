@@ -142,3 +142,39 @@ footer {
   margin-top: 0.5rem;
   font-weight: bold;
 }
+
+.image-text-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.image-text-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.image-side img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.text-side {
+  max-width: 500px;
+}
+
+.text-side h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.text-side p {
+  font-size: 1em;
+  line-height: 1.6;
+}
