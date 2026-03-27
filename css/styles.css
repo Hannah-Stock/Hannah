@@ -75,14 +75,6 @@ body.index-page .hero {
 .btn-primary:hover {
   background-color: #001f3f;
 }
-
-.btn-spacing {
-  margin-top: 20px;
-}
-
-.btn-spacing:last-child {
-  margin-top: 20px;
-}
   
 
 .personal-intro {
