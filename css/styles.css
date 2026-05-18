@@ -361,3 +361,9 @@ footer {
   transform: scale(1.1);
 }
 
+.btn-second{
+    display: inline-block;
+    padding: 16px 32px;   /* top/bottom left/right */
+    font-size: 20px;
+    border-radius: 8px;
+}
