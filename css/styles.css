@@ -47,8 +47,8 @@ main {
 }
 
 body.index-page .hero {
-  background: url('../images/main_pic.jpg') no-repeat center 40% / cover;
-  min-height: 40vh;
+  background: url('../images/main_pic.jpg') no-repeat center 50% / cover;
+  min-height: 50vh;
   text-align: center;
   padding: 6rem 2rem;
   display: flex;
